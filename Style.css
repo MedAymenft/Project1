@@ -1,0 +1,100 @@
+body{
+  font-family: sans-serif;
+  background-color: bisque;
+  color:black;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+}
+
+header{
+  display:flex;
+  background-color: rgb(108, 174, 152);
+  position:relative
+
+}
+
+
+
+header h1{
+  display: flex;
+
+  padding:20px;
+}
+
+header nav ul {
+  
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  background-color:  peachpuff ;
+  list-style-type: none;
+  position:absolute;
+  right:0px;
+  top:25px;
+ 
+}
+
+
+header nav ul li{
+  margin:10px;
+  list-style: none;
+  padding-right: 5px;
+}
+
+
+#welcome h2{
+  text-align: center;
+}
+
+img {
+  width:100%;
+  height: 100%;
+}
+
+#blog div{
+  display: flex;
+  margin-left: 20px;
+  
+}
+
+#blog h2{
+  text-align: center;
+}
+
+main{
+  width: 70%;
+  float: left;
+}
+
+aside{
+  float:right;
+  border : 4px solid white;
+  width: 29%;
+  height : 650px;
+  margin-top: 65px;
+  margin-right: 5px;
+
+
+}
+
+article{
+  border: 2px solid;
+  padding: 6px;
+  margin-bottom: 200px;
+  margin-right: 3px;
+}
+
+aside h3{
+  background-color: darkgrey;
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+  position:absolute;
+  bottom:10px;
+  
+}
